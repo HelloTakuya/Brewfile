@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 brew brew-cask
+cask sequel-pro
 
 ## peco/peco
 tap peco/peco
@@ -11,7 +12,6 @@ brew peco
 
 ## rcmdnk/file
 tap rcmdnk/file
-brew brew-file
 
 # Other Homebrew packages
 brew ant
@@ -19,8 +19,9 @@ brew atk
 brew bash-completion
 brew binutils
 brew bison
+brew colordiff
 brew coreutils
-brew emacs --with-gnutls --with-cocoa
+brew emacs --cocoa --with-gnutls --japanese
 brew fontconfig
 brew freetype
 brew gdbm
@@ -43,6 +44,8 @@ brew libgpg-error
 brew libpng
 brew libtasn1
 brew libtiff
+brew lua
+brew macvim --with-cscope --with-lua --override-system-vim
 brew nettle
 brew nkf
 brew node
@@ -60,6 +63,8 @@ brew wakeonlan
 brew wget
 brew wireshark
 brew xz
+brew zsh
+brew zsh-completions
 
 # App Store applications
 appstore Apple Configurator
